@@ -19,6 +19,14 @@ public class Pessoa implements Precedente<Pessoa>{
 
     @Override
     public int precedeA(Pessoa pessoa) {
-        return 0;
+        return pessoa.nome.compareToIgnoreCase(this.nome);
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                '}';
     }
 }

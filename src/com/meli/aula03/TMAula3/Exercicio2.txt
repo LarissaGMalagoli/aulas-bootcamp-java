@@ -1,0 +1,8 @@
+Discussão: O método de classificação pode classificar uma matriz de qualquer tipo de dados?
+Sim, pois ele leva em consideração um generic, então pode aceitar qualquer objeto cuja classe implemente essa interface.
+
+Discussão: se quisermos mudar o critério de precedência entre duas pessoas ou dois celulares, o que devemos fazer?
+Quão extensível e sustentável é a solução de ordenação que desenvolvemos no exercício anterior? Como poderia ser melhorado?
+
+Basta modificar o metodo precedeA nas classes. A solução feita pode se extender para qualquer classe que implemente a interface criada.
+Para melhorá-la poderíamos usar comparators, para passar o tipo de comparação desejada direto no main.

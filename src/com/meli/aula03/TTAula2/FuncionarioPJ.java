@@ -1,4 +1,4 @@
-package com.meli.aula03.TTAula02;
+package com.meli.aula03.TTAula2;
 
 public class FuncionarioPJ extends Funcionario{
 
